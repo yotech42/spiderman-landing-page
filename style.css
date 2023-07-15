@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #262949;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.left {
+  display: inline-block;
+  float: left;
+}
+
+.left img {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  width: 102px;
+  height: 51px;
+  left: 89px;
+  top: 24px;
+}
+.right {
+  display: inline-block;
+  float: right;
+}
+.menunav {
+  display: inline-block;
+  list-style: none;
+}
+
+.menunav li {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  top: 24px;
+  right: 58px;
+}
+
+.menunav nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+.leftimg img {
+  display: inline-block;
+  position: relative;
+  width: 676px;
+  height: 339px;
+  top: 199px;
+  left: 79px;
+}
+.textbox {
+  position: relative;
+  width: 706px;
+  height: 132px;
+  top: 217px;
+  left: 146px;
+  font-size: 21px;
+  display: inline-block;
+}
+.whitebtn img {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  top: 258px;
+  left: 139px;
+}
+.whitebtn h1 {
+  display: inline-block;
+  color: white;
+  position: relative;
+  top: 242px;
+  left: 167px;
+}
+.whitebtn button {
+  display: inline-block;
+  cursor: pointer;
+  top: 241px;
+  left: 206px;
+  width: 135px;
+  height: 52px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  position: relative;
+}
+.imgright {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(img/image\ 2.png);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vh;
+  height: 100vh;
+}
